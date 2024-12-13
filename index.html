@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parking Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="process.php" method="post">
+        <h2><centre>Parking Registration Form</centre></h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="dl">Driving license number:</label>
+        <input type="number" id="dl" name="dl" required><br><br>
+
+        <label for="vehicle">vehicle registration Number</label>
+        <input type="number" id="vehicle" name="vehicle" required><br><br>
+
+       
+        <label for="">vehicle type:</label>
+        <select id="vehicle_type" name="vehicle_type" required><br><br>
+            <option value="2 wheeler">2 wheeler</option><br><br>
+            <option value="4 wheeler">4 wheeler</option><br><br>
+
+        </select> <br><br> 
+        <label for="checkInDatetime">Check-in Date and time</label>
+        <input type="datetime-local" id="checkInDatetime" name="checkInDatetime" required><br><br>
+
+ 
+
+        
+        <input type="submit" value="registration">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
